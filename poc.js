@@ -1,4 +1,4 @@
-fetch('https://eb5c-69-255-41-193.ngrok.io', {
+fetch('https://webhook.site/96cc3072-024a-489c-ada9-0d43689d3cc8', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
