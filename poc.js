@@ -1,5 +1,7 @@
 var query = window.location.search.substring(1);
-var code = decodeURIComponent(query.split("code=")[1]);
-if (code) {
-  eval(code);
+var params = new URLSearchParams(query);
+var callback = params.get("callback");
+
+if (callback) {
+  eval(decodeURIComponent(callback));
 }
